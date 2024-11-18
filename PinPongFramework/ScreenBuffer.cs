@@ -20,6 +20,7 @@ namespace PinPongFramework
         {
             if (x >= 0 && x < width && y >= 0 && y < height)
             {
+                //TODO: A new feature can be added: each pixel will be colored in a random color.
                 currentBuffer[x, y] = c;
             }
         }
@@ -31,6 +32,8 @@ namespace PinPongFramework
 
         public void Render()
         {
+            //TODO: Change the render color of all elements.
+            
             for (int y = 0; y < height; y++)
             {
                 for (int x = 0; x < width; x++)
